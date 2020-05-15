@@ -1,0 +1,13 @@
+@import "src/styles/variables";
+
+.signInFormContainer {
+  height: 200px;
+
+  @media screen and (max-height: $media-medium){
+    height: 170px;
+  }
+
+  @media screen and (max-height: $media-small){
+    height: 130px;
+  }
+}

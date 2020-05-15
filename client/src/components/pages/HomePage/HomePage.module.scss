@@ -1,0 +1,13 @@
+@import "src/styles/variables";
+
+body {
+  background-color: $main-color;
+}
+
+.container{
+  display: flex;
+  min-height: inherit;
+  max-height: 100vh;
+  min-width: 100vw;
+
+}

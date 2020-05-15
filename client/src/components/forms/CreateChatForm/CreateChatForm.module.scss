@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  * {
+    margin-bottom: 10px;
+  }
+}
+
+.confirmButton {
+  background-color: $main-color;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  padding: 10px 30px;
+  align-self: flex-start;
+  border-radius: 3px;
+
+  @media screen and (max-height: $media-medium){
+    padding: 7px 17px;
+  }
+
+  @media screen and (max-height: $media-small){
+    padding: 5px 15px;
+  }
+}
